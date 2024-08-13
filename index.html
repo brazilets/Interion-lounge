@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interion lounge</title>
+	<link rel="icon" href="favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
+	<script src="/scripts/index.js" defer></script>
+</head>
+
+<body>
+	<header class="header header--nojs">
+		<div class="container">
+			<div class="header__inner">
+				<a class="header__logo" href="#">
+					<img class="header__logo-img" src="images/logo.svg" alt="Логотип">
+				</a>
+				<ul class="header__menu header__menu--open" id="menu">
+					<li class="header__menu-item">
+						<button class="header__menu-product" type="button" id="burger">
+							Наши проекты
+						</button>
+						<ul class="header__menu-select header__menu-select--open header--nojs ">
+							<li class="header__menu-option">
+								<a class="header__menu-go" href="#">Tomazzi Hall</a>
+							</li>
+							<li class="header__menu-option">
+								<a class="header__menu-go" href="#">Lounge Hall</a>
+							</li>
+							<li class="header__menu-option">
+								<a class="header__menu-go" href="#">Astra Hall</a>
+							</li>
+						</ul>
+					</li>
+					<li class="header__menu-item">
+						<a class="header__menu-link" href="#">Контакты</a>
+					</li>
+					<li class="header__menu-item">
+						<button class="header__menu-button" type="button">Оставить отзыв</button>
+					</li>
+				</ul>
+				<button class="header__menu-toggle" type="button" id="toggle" aria-label="Открыть меню">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section class="promo">
+			<div class="promo__inner">
+				<div class="container">
+					<h1 class="promo__title">Дизайн общественных интерьеров</h1>
+					<div class="promo__subtitle">Кейс клубного дома Tomazzi&nbsp;Hall</div>
+					<div class="promo__img-container">
+						<img class="promo__img" src="images/promo.webp" alt="клубный дом Tomazzi Hall">
+					</div>
+					<p class="promo__description">
+						Создать объект, подобного которому в Санкт-Петербурге еще не было, — такую задачу поставил перед собой
+						девелопер <span>Interior Lounge</span>, продумывая клубный дом Tomazzi Hall. Над экстерьером комплекса
+						работала команда одного из крупнейших архитектурных Бюро России — «Студия 11» разработал концепцию, а мы
+						оформили интерьер 10 парадных и 3 лаунж-зон.
+					</p>
+					<p class="promo__text">
+						Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил дизайн
+						парадных и лаунж-зон нам. Основными моментами, на которые мы оринтировались, стали:
+					</p>
+					<ul class="promo__list">
+						<li class="promo__list-item">
+							Источники вдохновения планировалось искать в строгой геометрии, модерне и духе «ревущих двадцатых»;
+						</li>
+						<li class="promo__list-item">
+							Необходимо было выдержать дорогой и одновременно элегантный стиль;
+						</li>
+						<li class="promo__list-item">
+							Ключевой элемент дизайна любого общественного пространства — удобство для жителей.
+						</li>
+					</ul>
+					<div class="promo__exemples">
+						<img class="promo__exemples-img" src="images/photo-1.webp" width="540" height="350"
+							alt="Большая квадратная винтовая лестница из дерева идущая вниз">
+						<img class="promo__exemples-img" src="images/photo-2.webp" width="540" height="350"
+							alt="Два высокоростных лифта в высотном стеклянном здании">
+					</div>
+					<div class="promo__subtitle-box">Начало работы и источники вдохновения</div>
+					<div class="promo__box">
+						<p class="promo__box-text">
+							Над экстерьером комплекса работала команда одного из крупнейших архитектурных бюро России — «Студия 11», а
+							мы оформили интерьер 10 парадных и 3 лаунж-зон.
+						</p>
+						<p class="promo__box-text">
+							Заказчик знал команду, следил за нашей деятельностью, поэтому никого больше не рассматривал — поручил
+							дизайн парадных и лаунж-зон нам.
+						</p>
+					</div>
+					<blockquote class="promo__blockquote">
+						<p class="promo__blockquote-text">«Нам хотелось поддержать внешнюю архитектурную концепцию, но внутри
+							добавить что-то необычное. Сделать некое подобие матрешки, чтобы все время открывались новые смыслы и
+							элементы».</p>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+		<section class="feedback">
+			<div class="feedback__inner">
+				<div class="container">
+					<h2 class="feedback__title">Оставить отзыв</h2>
+					<form class="feedback__form" action="#" method="post">
+						<label class="visually-hidden" for="feedback">Поле ввода отзыва</label>
+						<textarea class="feedback__textarea" name="textarea" id="feedback"
+							placeholder="Расскажите, что вы думаете о проекте"></textarea>
+						<label class="visually-hidden" for="name">Поле ввода имени</label>
+						<input class="feedback__form-input" type="text" name="name" id="name" placeholder="Ваше имя">
+						<div class="feedback__form-send">
+							<button class="feedback__form-button" type="submit">Отправить</button>
+							<span>Отзыв будет добавлен после проверки модератором</span>
+						</div>
+					</form>
+					<ul class="feedback__comment-list">
+						<li class="feedback__comment-item">
+							<img class="feedback__comment-img" src="images/image-1.webp" width="50" height="50"
+								alt="Фото Ивана Грачева">
+							<div class="feedback__comment-content">
+								<h3 class="feedback__comment-subtitle">Иван Грачев</h3>
+								<p class="feedback__comment__text">Очень самобытный и необычный проект.</p>
+							</div>
+						</li>
+						<li class="feedback__comment-item">
+							<img class="feedback__comment-img" src="images/image-2.webp" width="50" height="50"
+								alt="Фото Марии Рачинской">
+							<div class="feedback__comment-content">
+								<h3 class="feedback__comment-subtitle">Мария Рачинская</h3>
+								<p class="feedback__comment__text">Мне особенно понравилось решение лестничных клеток.<br>Кружки вообще
+									очень стильные!</p>
+							</div>
+						</li>
+						<li class="feedback__comment-item">
+							<img class="feedback__comment-img" src="images/image-3.webp" width="50" height="50" alt="Фото Светланы">
+							<div class="feedback__comment-content">
+								<h3 class="feedback__comment-subtitle">Светлана</h3>
+								<p class="feedback__comment__text">Очень нравится, что в городе развиваются такие проекты. Надеюсь,
+									такие
+									проекты скоро будут не только в частных домах, но и в кафе, музеях, театрах.<br>Я бы сходила!</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<footer class="footer"></footer>
+	</main>
+
+</body>
+
+</html>
